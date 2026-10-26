@@ -1,0 +1,486 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1980 1080" width="1980" height="1080" font-family="Arial, Helvetica, sans-serif">
+<style>
+.t { font-size: 13px; font-weight: 700; text-anchor: middle; }
+.title { font-size: 30px; font-weight: 700; font-style: italic; }
+.s { font-size: 15px; font-weight: 700; text-anchor: middle; }
+.xs { font-size: 11px; font-weight: 700; text-anchor: middle; }
+.n { font-size: 14px; }
+</style>
+<rect width="1980" height="1080" fill="#ffffff"/>
+<rect x="20" y="20" width="1940" height="56" rx="6" fill="#111827"/>
+<text x="40" y="58" class="title" fill="#fff" text-anchor="start">blackpill-sbus-la</text>
+<text x="1940" y="58" class="title" fill="#fff" text-anchor="end">WIRING</text>
+<rect x="560" y="150" width="180" height="800" rx="10" fill="#18181b" stroke="#000" stroke-width="2"/>
+<rect x="602" y="118" width="18" height="40" fill="#111" stroke="#444"/>
+<circle cx="611" cy="165" r="6" fill="#d4af37"/>
+<rect x="628" y="118" width="18" height="40" fill="#111" stroke="#444"/>
+<circle cx="637" cy="165" r="6" fill="#d4af37"/>
+<rect x="654" y="118" width="18" height="40" fill="#111" stroke="#444"/>
+<circle cx="663" cy="165" r="6" fill="#d4af37"/>
+<rect x="680" y="118" width="18" height="40" fill="#111" stroke="#444"/>
+<circle cx="689" cy="165" r="6" fill="#d4af37"/>
+<rect x="608" y="938" width="84" height="60" rx="12" fill="#9ca3af" stroke="#4b5563" stroke-width="2"/>
+<rect x="622" y="958" width="56" height="20" rx="8" fill="#374151"/>
+<text x="650" y="1022" class="s" fill="#111">USB-C</text>
+<rect x="615" y="315" width="70" height="70" fill="#27272a" stroke="#52525b" transform="rotate(45 650 350)"/>
+<text x="650" y="560" class="s" fill="#e5e7eb" transform="rotate(-90 650 560)">WeAct Black Pill V1.2</text>
+<text x="675" y="560" class="s" fill="#9ca3af" transform="rotate(-90 675 560)">STM32F401CCU6</text>
+<rect x="630" y="830" width="40" height="22" rx="3" fill="#e5e7eb"/><text x="650" y="868" class="xs" fill="#e5e7eb">BOOT0</text>
+<rect x="630" y="760" width="40" height="22" rx="3" fill="#e5e7eb"/><text x="650" y="798" class="xs" fill="#e5e7eb">NRST</text>
+<line x1="548" y1="210" x2="582" y2="210" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="210" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="214" class="xs" fill="#e5e7eb" text-anchor="start">VB</text>
+<rect x="474" y="197.0" width="70" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="509.0" y="215" fill="#6b7280" class="t">VBAT</text>
+<line x1="548" y1="246" x2="582" y2="246" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="246" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="250" class="xs" fill="#e5e7eb" text-anchor="start">C13</text>
+<rect x="482" y="233.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="251" fill="#fff" class="t">PC13</text>
+<rect x="426" y="233.0" width="52" height="26" rx="4" fill="#fde047" stroke="#fde047" stroke-width="1.5"/>
+<text x="452.0" y="251" fill="#111" class="t">LED</text>
+<line x1="548" y1="282" x2="582" y2="282" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="282" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="286" class="xs" fill="#e5e7eb" text-anchor="start">C14</text>
+<rect x="482" y="269.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="287" fill="#fff" class="t">PC14</text>
+<line x1="548" y1="318" x2="582" y2="318" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="318" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="322" class="xs" fill="#e5e7eb" text-anchor="start">C15</text>
+<rect x="482" y="305.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="323" fill="#fff" class="t">PC15</text>
+<line x1="548" y1="354" x2="582" y2="354" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="354" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="358" class="xs" fill="#e5e7eb" text-anchor="start">R</text>
+<rect x="482" y="341.0" width="62" height="26" rx="4" fill="#fde047" stroke="#fde047" stroke-width="1.5"/>
+<text x="513.0" y="359" fill="#111" class="t">NRST</text>
+<line x1="548" y1="390" x2="582" y2="390" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="390" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="394" class="xs" fill="#e5e7eb" text-anchor="start">A0</text>
+<rect x="482" y="377.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="395" fill="#fff" class="t">PA0</text>
+<rect x="426" y="377.0" width="52" height="26" rx="4" fill="#fde047" stroke="#fde047" stroke-width="1.5"/>
+<text x="452.0" y="395" fill="#111" class="t">KEY</text>
+<line x1="548" y1="426" x2="582" y2="426" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="426" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="430" class="xs" fill="#e5e7eb" text-anchor="start">A1</text>
+<rect x="482" y="413.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="431" fill="#fff" class="t">PA1</text>
+<rect x="426" y="413.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="431" fill="#fff" class="t">D0</text>
+<line x1="548" y1="462" x2="582" y2="462" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="462" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="466" class="xs" fill="#e5e7eb" text-anchor="start">A2</text>
+<rect x="482" y="449.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="467" fill="#fff" class="t">PA2</text>
+<rect x="426" y="449.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="467" fill="#fff" class="t">D1</text>
+<line x1="548" y1="498" x2="582" y2="498" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="498" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="502" class="xs" fill="#e5e7eb" text-anchor="start">A3</text>
+<rect x="482" y="485.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="503" fill="#fff" class="t">PA3</text>
+<rect x="426" y="485.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="503" fill="#fff" class="t">D2</text>
+<line x1="548" y1="534" x2="582" y2="534" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="534" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="538" class="xs" fill="#e5e7eb" text-anchor="start">A4</text>
+<rect x="482" y="521.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="539" fill="#fff" class="t">PA4</text>
+<rect x="426" y="521.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="539" fill="#fff" class="t">D3</text>
+<line x1="548" y1="570" x2="582" y2="570" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="570" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="574" class="xs" fill="#e5e7eb" text-anchor="start">A5</text>
+<rect x="482" y="557.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="575" fill="#fff" class="t">PA5</text>
+<rect x="426" y="557.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="575" fill="#fff" class="t">D4</text>
+<line x1="548" y1="606" x2="582" y2="606" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="606" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="610" class="xs" fill="#e5e7eb" text-anchor="start">A6</text>
+<rect x="482" y="593.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="611" fill="#fff" class="t">PA6</text>
+<rect x="426" y="593.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="611" fill="#fff" class="t">D5</text>
+<line x1="548" y1="642" x2="582" y2="642" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="642" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="646" class="xs" fill="#e5e7eb" text-anchor="start">A7</text>
+<rect x="482" y="629.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="647" fill="#fff" class="t">PA7</text>
+<rect x="426" y="629.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="647" fill="#fff" class="t">D6</text>
+<line x1="548" y1="678" x2="582" y2="678" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="678" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="682" class="xs" fill="#e5e7eb" text-anchor="start">B0</text>
+<rect x="482" y="665.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="683" fill="#fff" class="t">PB0</text>
+<rect x="374" y="665.0" width="104" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="426.0" y="683" fill="#111" class="t">TEST MARK</text>
+<line x1="548" y1="714" x2="582" y2="714" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="714" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="718" class="xs" fill="#e5e7eb" text-anchor="start">B1</text>
+<rect x="482" y="701.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="719" fill="#fff" class="t">PB1</text>
+<line x1="548" y1="750" x2="582" y2="750" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="750" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="754" class="xs" fill="#e5e7eb" text-anchor="start">B2</text>
+<rect x="482" y="737.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="755" fill="#fff" class="t">PB2</text>
+<rect x="412" y="737.0" width="66" height="26" rx="4" fill="#fde047" stroke="#fde047" stroke-width="1.5"/>
+<text x="445.0" y="755" fill="#111" class="t">BOOT1</text>
+<line x1="548" y1="786" x2="582" y2="786" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="786" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="790" class="xs" fill="#e5e7eb" text-anchor="start">B10</text>
+<rect x="482" y="773.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="513.0" y="791" fill="#fff" class="t">PB10</text>
+<rect x="426" y="773.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="452.0" y="791" fill="#fff" class="t">D15</text>
+<line x1="548" y1="822" x2="582" y2="822" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="822" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="826" class="xs" fill="#e5e7eb" text-anchor="start">3V3</text>
+<rect x="482" y="809.0" width="62" height="26" rx="4" fill="#991b1b" stroke="#991b1b" stroke-width="1.5"/>
+<text x="513.0" y="827" fill="#fff" class="t">3V3</text>
+<rect x="328" y="809.0" width="150" height="26" rx="4" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+<text x="403.0" y="827" fill="#111" class="t">10 kΩ → SBUS 4</text>
+<line x1="548" y1="858" x2="582" y2="858" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="858" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="862" class="xs" fill="#e5e7eb" text-anchor="start">G</text>
+<rect x="482" y="845.0" width="62" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="513.0" y="863" fill="#fff" class="t">GND</text>
+<line x1="548" y1="894" x2="582" y2="894" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="582" cy="894" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="598" y="898" class="xs" fill="#e5e7eb" text-anchor="start">5V</text>
+<rect x="482" y="881.0" width="62" height="26" rx="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.5"/>
+<text x="513.0" y="899" fill="#fff" class="t">5V</text>
+<line x1="718" y1="210" x2="752" y2="210" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="210" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="214" class="xs" fill="#e5e7eb" text-anchor="end">3V3</text>
+<rect x="756" y="197.0" width="62" height="26" rx="4" fill="#991b1b" stroke="#991b1b" stroke-width="1.5"/>
+<text x="787.0" y="215" fill="#fff" class="t">3V3</text>
+<line x1="718" y1="246" x2="752" y2="246" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="246" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="250" class="xs" fill="#e5e7eb" text-anchor="end">G</text>
+<rect x="756" y="233.0" width="62" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="787.0" y="251" fill="#fff" class="t">GND</text>
+<line x1="718" y1="282" x2="752" y2="282" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="282" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="286" class="xs" fill="#e5e7eb" text-anchor="end">5V</text>
+<rect x="756" y="269.0" width="62" height="26" rx="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.5"/>
+<text x="787.0" y="287" fill="#fff" class="t">5V</text>
+<line x1="718" y1="318" x2="752" y2="318" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="318" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="322" class="xs" fill="#e5e7eb" text-anchor="end">B9</text>
+<rect x="756" y="305.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="323" fill="#fff" class="t">PB9</text>
+<rect x="822" y="305.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="323" fill="#fff" class="t">D14</text>
+<line x1="718" y1="354" x2="752" y2="354" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="354" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="358" class="xs" fill="#e5e7eb" text-anchor="end">B8</text>
+<rect x="756" y="341.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="359" fill="#fff" class="t">PB8</text>
+<rect x="822" y="341.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="359" fill="#fff" class="t">D13</text>
+<line x1="718" y1="390" x2="752" y2="390" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="390" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="394" class="xs" fill="#e5e7eb" text-anchor="end">B7</text>
+<rect x="756" y="377.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="395" fill="#fff" class="t">PB7</text>
+<rect x="822" y="377.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="395" fill="#fff" class="t">D12</text>
+<line x1="718" y1="426" x2="752" y2="426" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="426" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="430" class="xs" fill="#e5e7eb" text-anchor="end">B6</text>
+<rect x="756" y="413.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="431" fill="#fff" class="t">PB6</text>
+<rect x="822" y="413.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="431" fill="#fff" class="t">D11</text>
+<line x1="718" y1="462" x2="752" y2="462" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="462" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="466" class="xs" fill="#e5e7eb" text-anchor="end">B5</text>
+<rect x="756" y="449.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="467" fill="#fff" class="t">PB5</text>
+<rect x="822" y="449.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="467" fill="#fff" class="t">D10</text>
+<line x1="718" y1="498" x2="752" y2="498" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="498" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="502" class="xs" fill="#e5e7eb" text-anchor="end">B4</text>
+<rect x="756" y="485.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="503" fill="#fff" class="t">PB4</text>
+<rect x="822" y="485.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="503" fill="#fff" class="t">D9</text>
+<line x1="718" y1="534" x2="752" y2="534" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="534" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="538" class="xs" fill="#e5e7eb" text-anchor="end">B3</text>
+<rect x="756" y="521.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="539" fill="#fff" class="t">PB3</text>
+<rect x="822" y="521.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="539" fill="#fff" class="t">D8</text>
+<rect x="878" y="521.0" width="190" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="973.0" y="539" fill="#111" class="t">demo: jumper from PB12</text>
+<line x1="718" y1="570" x2="752" y2="570" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="570" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="574" class="xs" fill="#e5e7eb" text-anchor="end">A15</text>
+<rect x="756" y="557.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="575" fill="#fff" class="t">PA15</text>
+<line x1="718" y1="606" x2="752" y2="606" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="606" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="610" class="xs" fill="#e5e7eb" text-anchor="end">A12</text>
+<rect x="756" y="593.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="611" fill="#fff" class="t">PA12</text>
+<rect x="822" y="593.0" width="74" height="26" rx="4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="859.0" y="611" fill="#fff" class="t">USB D+</text>
+<rect x="900" y="593.0" width="90" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="945.0" y="611" fill="#111" class="t">via USB-C</text>
+<line x1="718" y1="642" x2="752" y2="642" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="642" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="646" class="xs" fill="#e5e7eb" text-anchor="end">A11</text>
+<rect x="756" y="629.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="647" fill="#fff" class="t">PA11</text>
+<rect x="822" y="629.0" width="74" height="26" rx="4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="859.0" y="647" fill="#fff" class="t">USB D−</text>
+<rect x="900" y="629.0" width="90" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="945.0" y="647" fill="#111" class="t">via USB-C</text>
+<line x1="718" y1="678" x2="752" y2="678" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="678" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="682" class="xs" fill="#e5e7eb" text-anchor="end">A10</text>
+<rect x="756" y="665.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="683" fill="#fff" class="t">PA10</text>
+<rect x="822" y="665.0" width="108" height="26" rx="4" fill="#0891b2" stroke="#0891b2" stroke-width="1.5"/>
+<text x="876.0" y="683" fill="#fff" class="t">CONSOLE RX</text>
+<rect x="934" y="665.0" width="116" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="992.0" y="683" fill="#111" class="t">← adapter TX</text>
+<line x1="718" y1="714" x2="752" y2="714" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="714" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="718" class="xs" fill="#e5e7eb" text-anchor="end">A9</text>
+<rect x="756" y="701.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="719" fill="#fff" class="t">PA9</text>
+<rect x="822" y="701.0" width="108" height="26" rx="4" fill="#0891b2" stroke="#0891b2" stroke-width="1.5"/>
+<text x="876.0" y="719" fill="#fff" class="t">CONSOLE TX</text>
+<rect x="934" y="701.0" width="116" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="992.0" y="719" fill="#111" class="t">→ adapter RX</text>
+<line x1="718" y1="750" x2="752" y2="750" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="750" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="754" class="xs" fill="#e5e7eb" text-anchor="end">A8</text>
+<rect x="756" y="737.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="755" fill="#fff" class="t">PA8</text>
+<rect x="822" y="737.0" width="52" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="848.0" y="755" fill="#fff" class="t">D7</text>
+<line x1="718" y1="786" x2="752" y2="786" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="786" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="790" class="xs" fill="#e5e7eb" text-anchor="end">B15</text>
+<rect x="756" y="773.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="791" fill="#fff" class="t">PB15</text>
+<line x1="718" y1="822" x2="752" y2="822" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="822" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="826" class="xs" fill="#e5e7eb" text-anchor="end">B14</text>
+<rect x="756" y="809.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="827" fill="#fff" class="t">PB14</text>
+<line x1="718" y1="858" x2="752" y2="858" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="858" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="862" class="xs" fill="#e5e7eb" text-anchor="end">B13</text>
+<rect x="756" y="845.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="863" fill="#fff" class="t">PB13</text>
+<line x1="718" y1="894" x2="752" y2="894" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="718" cy="894" r="8" fill="#d4af37" stroke="#7c5e10"/>
+<text x="702" y="898" class="xs" fill="#e5e7eb" text-anchor="end">B12</text>
+<rect x="756" y="881.0" width="62" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="787.0" y="899" fill="#fff" class="t">PB12</text>
+<rect x="822" y="881.0" width="124" height="26" rx="4" fill="#0891b2" stroke="#0891b2" stroke-width="1.5"/>
+<text x="884.0" y="899" fill="#fff" class="t">UART GEN OUT</text>
+<rect x="950" y="881.0" width="104" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="1002.0" y="899" fill="#111" class="t">demo signal</text>
+<rect x="536" y="87.0" width="64" height="26" rx="4" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5"/>
+<text x="568.0" y="105" fill="#111" class="t">SWDIO</text>
+<rect x="476" y="87.0" width="56" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="504.0" y="105" fill="#fff" class="t">PA13</text>
+<rect x="422" y="87.0" width="50" height="26" rx="4" fill="#991b1b" stroke="#991b1b" stroke-width="1.5"/>
+<text x="447.0" y="105" fill="#fff" class="t">3V3</text>
+<rect x="700" y="87.0" width="56" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="728.0" y="105" fill="#fff" class="t">PA14</text>
+<rect x="760" y="87.0" width="64" height="26" rx="4" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5"/>
+<text x="792.0" y="105" fill="#111" class="t">SWCLK</text>
+<rect x="828" y="87.0" width="50" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="853.0" y="105" fill="#fff" class="t">GND</text>
+<text x="650" y="106" class="xs" fill="#111">SWD</text>
+<rect x="1440" y="150" width="140" height="520" rx="8" fill="#15803d" stroke="#064e3b" stroke-width="2"/>
+<rect x="1450" y="670" width="120" height="150" rx="6" fill="#d4af37" stroke="#7c5e10" stroke-width="2"/>
+<rect x="1470" y="700" width="80" height="40" rx="4" fill="#b8860b"/>
+<text x="1510.0" y="852" class="s" fill="#111">HDMI Type A plug</text>
+<text x="1510.0" y="872" class="xs" fill="#111">(solder breakout)</text>
+<text x="1510.0" y="190" class="s" fill="#fff">SBUS</text>
+<circle cx="1474" cy="210" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="210" x2="1474" y2="210" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="197.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1388.0" y="215" fill="#fff" class="t">SBUS 19</text>
+<rect x="1264" y="197.0" width="84" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1306.0" y="215" fill="#fff" class="t">PRESENT</text>
+<rect x="1126" y="197.0" width="134" height="26" rx="4" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+<text x="1193.0" y="215" fill="#111" class="t">300 Ω → GND</text>
+<circle cx="1546" cy="210" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="210" x2="1592" y2="210" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="197.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="215" fill="#fff" class="t">SHELL</text>
+<rect x="1672" y="197.0" width="84" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1714.0" y="215" fill="#fff" class="t">SHELL</text>
+<circle cx="1474" cy="254" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="254" x2="1474" y2="254" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="241.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1388.0" y="259" fill="#6b7280" class="t">SBUS 18</text>
+<rect x="1264" y="241.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1306.0" y="259" fill="#6b7280" class="t">NC</text>
+<rect x="1126" y="241.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1193.0" y="259" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1546" cy="254" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="254" x2="1592" y2="254" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="241.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1632.0" y="259" fill="#6b7280" class="t">SBUS 1</text>
+<rect x="1672" y="241.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1714.0" y="259" fill="#6b7280" class="t">NC</text>
+<rect x="1760" y="241.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1827.0" y="259" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1474" cy="298" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="298" x2="1474" y2="298" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="285.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1388.0" y="303" fill="#6b7280" class="t">SBUS 17</text>
+<rect x="1264" y="285.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1306.0" y="303" fill="#6b7280" class="t">NC</text>
+<rect x="1126" y="285.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1193.0" y="303" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1546" cy="298" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="298" x2="1592" y2="298" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="285.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="303" fill="#fff" class="t">SBUS 2</text>
+<rect x="1672" y="285.0" width="84" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1714.0" y="303" fill="#fff" class="t">GND</text>
+<circle cx="1474" cy="342" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="342" x2="1474" y2="342" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="329.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1388.0" y="347" fill="#6b7280" class="t">SBUS 16</text>
+<rect x="1264" y="329.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1306.0" y="347" fill="#6b7280" class="t">NC</text>
+<rect x="1126" y="329.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1193.0" y="347" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1546" cy="342" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="342" x2="1592" y2="342" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="329.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1632.0" y="347" fill="#6b7280" class="t">SBUS 3</text>
+<rect x="1672" y="329.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1714.0" y="347" fill="#6b7280" class="t">NC</text>
+<rect x="1760" y="329.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1827.0" y="347" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1474" cy="386" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="386" x2="1474" y2="386" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="373.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1388.0" y="391" fill="#6b7280" class="t">SBUS 15</text>
+<rect x="1264" y="373.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1306.0" y="391" fill="#6b7280" class="t">NC</text>
+<rect x="1126" y="373.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1193.0" y="391" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1546" cy="386" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="386" x2="1592" y2="386" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="373.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="391" fill="#fff" class="t">SBUS 4</text>
+<rect x="1672" y="373.0" width="84" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1714.0" y="391" fill="#fff" class="t">ENABLE</text>
+<rect x="1760" y="373.0" width="134" height="26" rx="4" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+<text x="1827.0" y="391" fill="#111" class="t">10 kΩ → 3V3</text>
+<circle cx="1474" cy="430" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="430" x2="1474" y2="430" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="417.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1388.0" y="435" fill="#6b7280" class="t">SBUS 14</text>
+<rect x="1264" y="417.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1306.0" y="435" fill="#6b7280" class="t">NC</text>
+<rect x="1126" y="417.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1193.0" y="435" fill="#6b7280" class="t">+5 V, do not use</text>
+<circle cx="1546" cy="430" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="430" x2="1592" y2="430" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="417.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="435" fill="#fff" class="t">SBUS 5</text>
+<rect x="1672" y="417.0" width="84" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1714.0" y="435" fill="#fff" class="t">GND</text>
+<circle cx="1474" cy="474" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="474" x2="1474" y2="474" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="461.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1388.0" y="479" fill="#6b7280" class="t">SBUS 13</text>
+<rect x="1264" y="461.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1306.0" y="479" fill="#6b7280" class="t">NC</text>
+<rect x="1126" y="461.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1193.0" y="479" fill="#6b7280" class="t">+5 V, do not use</text>
+<circle cx="1546" cy="474" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="474" x2="1592" y2="474" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="461.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="479" fill="#fff" class="t">SBUS 6</text>
+<rect x="1672" y="461.0" width="84" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1714.0" y="479" fill="#fff" class="t">GND</text>
+<circle cx="1474" cy="518" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="518" x2="1474" y2="518" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="505.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1388.0" y="523" fill="#fff" class="t">SBUS 12</text>
+<rect x="1264" y="505.0" width="84" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1306.0" y="523" fill="#fff" class="t">GND</text>
+<rect x="1126" y="505.0" width="134" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="1193.0" y="523" fill="#111" class="t">USB-C GND</text>
+<circle cx="1546" cy="518" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="518" x2="1592" y2="518" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="505.0" width="72" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1632.0" y="523" fill="#6b7280" class="t">SBUS 7</text>
+<rect x="1672" y="505.0" width="84" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1714.0" y="523" fill="#6b7280" class="t">NC</text>
+<rect x="1760" y="505.0" width="134" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="1827.0" y="523" fill="#6b7280" class="t">do not connect</text>
+<circle cx="1474" cy="562" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="562" x2="1474" y2="562" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="549.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1388.0" y="567" fill="#fff" class="t">SBUS 11</text>
+<rect x="1264" y="549.0" width="84" height="26" rx="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.5"/>
+<text x="1306.0" y="567" fill="#fff" class="t">+5 V</text>
+<rect x="1126" y="549.0" width="134" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="1193.0" y="567" fill="#111" class="t">USB-C VBUS</text>
+<circle cx="1546" cy="562" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="562" x2="1592" y2="562" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="549.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="567" fill="#fff" class="t">SBUS 8</text>
+<rect x="1672" y="549.0" width="84" height="26" rx="4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1714.0" y="567" fill="#fff" class="t">USB D+</text>
+<rect x="1760" y="549.0" width="134" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="1827.0" y="567" fill="#111" class="t">USB-C D+</text>
+<circle cx="1474" cy="606" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1428" y1="606" x2="1474" y2="606" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1352" y="593.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1388.0" y="611" fill="#fff" class="t">SBUS 10</text>
+<rect x="1264" y="593.0" width="84" height="26" rx="4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="1306.0" y="611" fill="#fff" class="t">USB D−</text>
+<rect x="1126" y="593.0" width="134" height="26" rx="4" fill="#f3f4f6" stroke="#f3f4f6" stroke-width="1.5"/>
+<text x="1193.0" y="611" fill="#111" class="t">USB-C D−</text>
+<circle cx="1546" cy="606" r="10" fill="#e5e7eb" stroke="#7c5e10" stroke-width="3"/>
+<line x1="1546" y1="606" x2="1592" y2="606" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1596" y="593.0" width="72" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1632.0" y="611" fill="#fff" class="t">SBUS 9</text>
+<rect x="1672" y="593.0" width="84" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1714.0" y="611" fill="#fff" class="t">GND</text>
+<rect x="40" y="1027.0" width="50" height="26" rx="4" fill="#ec4899" stroke="#ec4899" stroke-width="1.5"/>
+<text x="65.0" y="1045" fill="#fff" class="t">Pin</text>
+<rect x="98" y="1027.0" width="114" height="26" rx="4" fill="#16a34a" stroke="#16a34a" stroke-width="1.5"/>
+<text x="155.0" y="1045" fill="#fff" class="t">Logic input</text>
+<rect x="220" y="1027.0" width="50" height="26" rx="4" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="245.0" y="1045" fill="#fff" class="t">USB</text>
+<rect x="278" y="1027.0" width="58" height="26" rx="4" fill="#0891b2" stroke="#0891b2" stroke-width="1.5"/>
+<text x="307.0" y="1045" fill="#fff" class="t">UART</text>
+<rect x="344" y="1027.0" width="58" height="26" rx="4" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<text x="373.0" y="1045" fill="#fff" class="t">SBUS</text>
+<rect x="410" y="1027.0" width="58" height="26" rx="4" fill="#dc2626" stroke="#dc2626" stroke-width="1.5"/>
+<text x="439.0" y="1045" fill="#fff" class="t">+5 V</text>
+<rect x="476" y="1027.0" width="50" height="26" rx="4" fill="#991b1b" stroke="#991b1b" stroke-width="1.5"/>
+<text x="501.0" y="1045" fill="#fff" class="t">3V3</text>
+<rect x="534" y="1027.0" width="50" height="26" rx="4" fill="#1f2937" stroke="#1f2937" stroke-width="1.5"/>
+<text x="559.0" y="1045" fill="#fff" class="t">GND</text>
+<rect x="592" y="1027.0" width="90" height="26" rx="4" fill="#ffffff" stroke="#111" stroke-width="1.5"/>
+<text x="637.0" y="1045" fill="#111" class="t">Resistor</text>
+<rect x="690" y="1027.0" width="130" height="26" rx="4" fill="#e5e7eb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="755.0" y="1045" fill="#6b7280" class="t">Not connected</text>
+<text x="900" y="940" class="n" fill="#111" text-anchor="start">Board USB-C → SBUS: cut the USB-A end off a USB-C to USB-A cable; solder VBUS, D+, D−, GND to SBUS 11, 8, 10, 12.</text>
+<text x="900" y="966" class="n" fill="#111" text-anchor="start">SBUS 4: 10 kΩ to Black Pill 3V3.  SBUS 19: 300 Ω to GND.  All other SBUS pins stay unconnected.</text>
+<text x="900" y="992" class="n" fill="#111" text-anchor="start">Logic inputs D0–D15 are 3.3 V CMOS with internal pull-down. Console: 3.3 V USB-UART adapter, 115200 8N1.</text>
+</svg>
